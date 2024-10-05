@@ -1,0 +1,251 @@
+body{ background-image: linear-gradient(rgb(249, 255, 255), cyan, cyan, cyan, rgb(167, 240, 255), white,white,white,white, rgb(255, 249, 249) );
+
+
+background-attachment: scroll;
+background-size: auto;
+background-repeat: no-repeat;
+    
+
+header{
+    text-align: center;
+}
+
+}
+
+
+.imagi{padding-right: 19px;
+    
+  
+
+}
+.MikuLink{padding-right: 19px;
+    color: black;
+    text-decoration: none;    
+
+}
+
+.MikuLink2{padding-right: 19px;
+    color: black;
+    text-decoration: none;
+
+
+}
+   
+.MikuLink3{padding-right: 19px;
+    color: black;
+    text-decoration: none;
+
+}   
+
+
+.MikuLink4{
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.MikuLink5{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.MikuLink6{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.MikuLink7{
+    padding-left: 10px;
+}
+
+@font-face {
+    font-family: 'AplleMiku' ;
+    src: url('BRIGHTSTER-Bold.otf') format(opentype)
+}
+
+.MikuTitle{
+    font-family: 'AplleMiku', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 95px;
+    margin-top: 120px;
+    text-shadow:
+    1px 1px 2px cyan;
+    animation: fadeIn 4s forwards;
+    opacity: 0;
+}
+    
+
+
+
+.imagi2{
+    margin-left: 35%;
+    animation: fadeIn 4s forwards;
+    opacity: 0;
+    margin-top: -100px;
+    
+    
+}
+
+@keyframes fadeIn{
+    From{
+       opacity: 0;
+    }
+
+    To{
+      opacity: 1;
+    }
+}
+
+
+.Miku6{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 50%;
+
+
+   
+   
+    
+}
+
+
+#Botao{
+    background-color: rgb(16, 236, 236);
+    border-radius: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    border-style: none;
+    margin-left: 48%;
+    margin-bottom: 360px;
+    
+   
+    
+}
+
+
+.MikuDivFilho{
+position: absolute;
+margin-top: 60px;
+padding-left: 35%;
+}
+ 
+
+
+.MikuNavBar{
+    background-color: rgba(253, 250, 250, 0.975);
+    height: 90px;
+    position: relative;
+    
+}
+
+.MikuTitle2{
+    position: absolute;
+    margin-left: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 9px;
+    
+   
+}
+
+    
+.MikuLink8{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: black
+}
+
+.MikuLink9{
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.MikuLink10{
+position: absolute;
+margin-left: 1039px;
+margin-top: 40px;
+text-decoration: none;
+color: black;
+
+
+}
+.MikuBotton2{
+    position: absolute;
+    margin-left: 1100px;
+}
+
+
+
+
+
+#MikuIdBotton{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 40px;
+    background-color: cyan;
+    border-radius: 10px;
+    border-style: none;
+
+
+}
+
+
+.MikuGridContainer{
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 300px;
+    margin-left: 50%;
+   
+}
+
+.MikuGridItem img {
+    animation: mudarCor 3s infinite linear;
+}
+
+@keyframes mudarCor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    50% {
+        filter: hue-rotate(180deg);
+
+    }
+
+    100% {filter: hue-rotate(360deg)
+
+    }
+}
+
+.h22{
+    margin-left: 300px;
+    margin-top: -250px;
+    
+}
+
+.acabalogopfv{
+    margin-left: 300px;
+    list-style-position: inside;
+}
+
+.MikuFooter{
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    
+    margin-top: 200px;
+}
+
+.FooterItens{
+    margin-left: 20px;
+}
+
